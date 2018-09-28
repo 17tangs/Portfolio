@@ -1,5 +1,9 @@
 .App {
+    position:absolute;
+    top:0;
   text-align: center;
+  height:100%;
+  width:100%;
 }
 
 .App-logo {
@@ -25,4 +29,13 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+.banner{
+    width: calc(100% - 100px);
+    height: calc(100% - 100px);
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
